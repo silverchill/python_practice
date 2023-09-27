@@ -64,3 +64,9 @@ print(d.replace("Hello", "Ste")) #To replace a string or character
 
 g = "Obi is a boy!"
 print(g.split(" ")) #To return another string
+
+bread = 5
+bags = 2.5
+price = 100.67
+Deliver = "I want {}, {} for the amount of {}"
+print(Deliver.format(bread, bags, price))
