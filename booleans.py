@@ -27,3 +27,21 @@ print(type(x))
 
 x = list(("Ste", "Solo", "Chi"))
 print(type(x))
+
+y = ["apple", "banana", "cherry"]
+print(y[1])  # addition of 1 is to print only the 2nd item in the list array. NB The Ist item has index 0
+
+y = ["apple", "banana", "cherry"]
+print(y[-1])            # negative indexing means start from the end
+
+y = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(y[2:5])       # Print from index 2 and end in index 4
+
+y = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(y[:5])        # Print from the beginning and end in index 4
+
+y = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(y[3:])        # Print from index 3 to the end
+
+y = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(y[-3:-2])     # Start counting from back when we see the -ive, then exclude the last two
