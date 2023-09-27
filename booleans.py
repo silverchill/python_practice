@@ -12,3 +12,18 @@ if myFunction():
   print("YES!")
 else:
   print("NO!")  #if true(1) print YES but if false(0) print NO
+'''
+The 4 built-in data types in Python used to store collections of data
+
+List: is a collection which is ordered and changeable. Allows duplicate members.
+Tuple: is a collection which is ordered and unchangeable. Allows duplicate members.
+Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary: is a collection which is ordered** and changeable. No duplicate members.
+'''
+# mylist = ["Ste", "Solo", "Chi"] or mylist = list(("Ste", "Solo", "Chi")) both are list data types
+
+x = ["Ste", "Solo", "Chi"]
+print(type(x))
+
+x = list(("Ste", "Solo", "Chi"))
+print(type(x))
