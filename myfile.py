@@ -15,7 +15,13 @@ a, b, c = "Obi ", "Ada ", "Ede"
 print(a + b + c) # Add extra space at the end of each string to be able to get a space to divide them
 h = 5
 i = 6
-print(h + i)
+print(h + i) #To print sum of int
+h = "Steve"
+i = "Cis"
+print(h + i)    # To print strings without a space between them
 h = 5
 i = 6
-print(5, 6) # Separate with commas to print multiple output
+print(5, 6) # add commas to print them separating with space
+h = "Steve"
+i = "Cis"
+print(h + " " + i) #Add + then " " to print strings with space
