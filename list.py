@@ -31,3 +31,25 @@ print(i)     #To remove the last index in a list, use "pop"without adding any sp
 i = ["Water", "Bread", "Dog", "Cow"]
 i.clear()
 print(i)    #To clear all the content in a list while keeping the list ie empty list
+
+the = ["come", "here"]
+for r in the:
+    print(r)                      # To loop through a list using for loop
+
+the = ["dont", "relax"]
+[print(r) for r in the]          # To loop through a list using for loop
+
+St = ["Yam", "stew"]
+for r in range(len(St)):
+    print(St[r])                # To loop through a list using for loop
+
+St = ["Yam", "good"]
+for r in range(len(St)):
+    print([r])                # To loop through the index in a list using for loop
+
+egg = ["bread", "akara"]
+f = 0
+while f < len(egg):
+    print(egg[f])               # NB: f += 1 is the same as f = f + 1
+    f += 1                      # To loop through a list using while loop
+
