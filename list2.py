@@ -35,3 +35,14 @@ print(x)            # To copy a list to another list
 u = [200, 500, 650, 50]
 t = list(u)
 print(t)            # Another way to copy a list to another list
+
+ls1 = ["a", "b", "c"]
+ls2 = [1, 2, 3]
+ls3 = ls1 + ls2
+print(ls3)          # joining two lists
+
+ls1 = ["a", "b", "c"]
+ls2 = [1, 2, 3]
+for x in ls2:
+    ls1.append(x)
+print(ls1)          # Another way to join two list
