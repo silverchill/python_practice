@@ -53,3 +53,4 @@ while f < len(egg):
     print(egg[f])               # NB: f += 1 is the same as f = f + 1
     f += 1                      # To loop through a list using while loop
 
+
