@@ -17,3 +17,14 @@ print(new_home)         #To replace all value in the new home to car
 house = ["chair", "table", "tv"]
 new_home = [r if r != "chair" else "cup" for r in house]
 print(new_home)         # To replace chair with cup in the new list
+
+house = ["chair", "table", "tv"]
+new_home.sort(reverse = True)
+print(new_home)         # To sort a list in descending order
+
+def myfunc(n):
+  return abs(n - 300)
+y = [200, 500, 650, 50, 10]
+y.sort(key = myfunc)
+print(y)            # To sort a no on how close it is to a no
+
