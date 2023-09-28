@@ -28,3 +28,10 @@ y = [200, 500, 650, 50, 10]
 y.sort(key = myfunc)
 print(y)            # To sort a no on how close it is to a no
 
+y = [200, 500, 650, 50, 10]
+x = y.copy()
+print(x)            # To copy a list to another list
+
+u = [200, 500, 650, 50]
+t = list(u)
+print(t)            # Another way to copy a list to another list
