@@ -17,7 +17,8 @@ print(g)    # To add a (list, tuples, sets, dictionaries etc) to another list, u
 
 i = ["Water", "Bread", "Dog", "Cow"]
 i.remove("Dog")
-print(i)    # To remove an item in a list, use "remove"
+print(i)    # To remove an item in a list, use "remove or discard but discard can only be used in set"
+# If the item to remove does not exist, remove() will raise an error but no error with discard 
 
 i = ["Water", "Bread", "Dog", "Cow"]
 i.pop(2)       # To remove a specific index in a list, use "pop" or
