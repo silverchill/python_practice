@@ -46,5 +46,44 @@ y = {"google", "microsoft", "apple"}
 x.symmetric_difference_update(y)
 print(x)    # To remove all duplicates in a set
 
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+print(type(thisdict))       # THIS IS A DICTIONARY
+
+thisdict = dict(name = "John", age = 36, country = "Norway")
+print(thisdict)             # THIS IS ALSO A DICTIONARY
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = thisdict["model"]
+print(x)
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = thisdict.get("model")  # Both will give you Mustang
+print(x)
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = thisdict.keys()
+print(x)    # keys() method will return a list of all the keys in the dictionary
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = thisdict.values()
+print(x)    # values() method will return a list of all the values in the dictionary
+
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = car.keys()
+print(x)                # before the change
+car["color"] = "white"
+print(x)                # after the change
+
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = car.values()
+print(x)                # before the change
+car["color"] = "red"
+print(x)                # after the change
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+x = thisdict.items()
+print(x)      # items() method will return each item in a dictionary, as tuples in a list
+
+
 
 
