@@ -7,3 +7,5 @@ match name:
         print("Egede")
     case _:
         print("which family")
+
+print("meow\n" * 3, sep="")
